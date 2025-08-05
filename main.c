@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <windows.h>
 
 #define TRUE 1
 #define FALSE 0
@@ -30,6 +31,7 @@ int main() {
             printf("novo: %s\n", new_ip);
             strcpy(public_ip, new_ip);
         }
+        Sleep(5);
     }
 
     return EXIT_SUCCESS;
